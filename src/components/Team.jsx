@@ -21,7 +21,7 @@ const Team = () => {
       <div className="flex justify-center w-[98%] mx-auto gap-7">
         <div className="relative rounded-3xl overflow-hidden bg-cover bg-no-repeat ">
           <img src={Dipendra} className="rounded-3xl h-[30rem] w-[23rem]" />
-          <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50">
+          <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50">
             <div className="-rotate-90 text-lg absolute mt-[3rem]">
             <span className="font-bold">Dipendra</span>
             </div>
@@ -36,7 +36,7 @@ const Team = () => {
         </div>
         <div className="relative rounded-3xl overflow-hidden bg-cover bg-no-repeat ">
           <img src={Megan} className="rounded-3xl h-[30rem] w-[23rem] object-cover" />
-          <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-500 ease-in-out hover:opacity-50">
+          <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-500 ease-in-out hover:opacity-50">
             <div className="-rotate-90 text-lg absolute mt-[3rem]">
             <span className="font-bold">Megan</span>
             </div>
@@ -51,7 +51,7 @@ const Team = () => {
         </div>
         <div className="relative rounded-3xl overflow-hidden bg-cover bg-no-repeat ">
           <img src={Pranish} className="rounded-3xl h-[30rem] w-[23rem] object-cover" />
-          <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50">
+          <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gray-900 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50">
             <div className="-rotate-90 text-lg absolute mt-[3rem]">
             <span className="font-bold">Pranish</span>
             </div>
