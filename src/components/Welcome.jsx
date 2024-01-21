@@ -5,7 +5,7 @@ export default function Welcome() {
         <>
    
             <div className="flex bg-[#15172A] p-[9rem] justify-center">
-                <div  ><img  src={vpn}></img>
+                <div  ><img  src={vpn} className='mt-[4rem]'></img>
                 </div>
                 <div className='ml-[5rem] w-[42%] '>
                     <h1 className='from-[#576099]  to-[#8994E6] bg-gradient-to-tr bg-clip-text text-transparent text-[1.5rem] pb-[1.5rem] font-bold'>Welcome to Netric</h1>

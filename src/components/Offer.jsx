@@ -11,8 +11,8 @@ export default function Offer() {
             What We Offer you
           </h1>
           <p className='text-[2.25rem] leading-10 font-bold py-[1.3rem]'>Your RoadMap To Freedom<br /> Information On The Internet</p>
-          <p className='text-[#9397AD]'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br /> exercitation ullamco.
+          <p className='text-[#9397AD] pb-8'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
           </p>
           <div className='flex gap-[5rem]'>
             <div className='py-[1.3rem]'>
@@ -40,7 +40,7 @@ export default function Offer() {
         </div>
         
         <div>
-          <img src={phone} className='rounded-3xl w-[60rem] h-[35rem] -mr-[15rem]' alt="Phone" />
+          <img src={phone} className='rounded-3xl w-[64rem] h-[35rem] -mr-[15rem] object-cover' alt="Phone" />
         </div>
         </div>
         </div>

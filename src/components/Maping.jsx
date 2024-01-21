@@ -11,7 +11,7 @@ const Maping = () => {
   return (
 
     <div>
-      <div className="mx-auto w-[100%] px-4">
+      <div className="mx-auto w-[100%] px-0 pt-[5rem]">
         <div className="glass1">
           <div className="flex justify-center gap-[7rem]">
             <div>
@@ -54,7 +54,7 @@ const Maping = () => {
             Over <span className="from-[#576099]  to-[#8994E6] bg-gradient-to-tr bg-clip-text text-transparent">183K+ <br/> </span>Global User Participation
         </h2>
       </div>
-      <div className="text-center flex">
+      <div className="text-center flex w-[89%] mx-auto">
         <div className="glass3">
             <img src={Pic1} className="mx-auto mt-[3rem] rounded-full object-cover h-[5rem] w-[5rem] "/>
         <h2 className="px-9 mt-[1rem]  text-white font-semibold text-[1.5rem]">

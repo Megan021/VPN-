@@ -1,11 +1,13 @@
 // import React from 'react'
 import Logo from '../images/Logo.jpg'
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import Subscribe from './Subscribe';
 
 const Footer = () => {
   return (
     <div>
       <div>
+        <Subscribe />
         <div className="flex justify-center gap-[15.5rem] py-[3rem] pt-[5rem]  mx-auto">
           <div className="">
             <img src={Logo} className='w-[10rem]' />
@@ -38,6 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

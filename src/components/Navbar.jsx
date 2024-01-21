@@ -1,20 +1,21 @@
 // import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../images/Logo.jpg'
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <div className="flex justify-center gap-[17rem] py-5">
+    <div className="">
+      <div className="flex justify-center gap-[17rem] py-5 bg-[#15172A]">
         <div className="">
           <img src={Logo} className='w-[11rem]' />
         </div>
         <div className="pt-3">
           <ul className="flex gap-12">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+            <Link to='/'> <li>Home</li></Link>
+            <Link to='/about'> <li>About</li></Link>
+            <Link to='/services'> <li>Services</li></Link>
+            <Link to='/pricing'> <li>Pricing</li></Link>
+            <Link to='/contact'> <li>Contact</li></Link>
           </ul>
         </div>
         <div>

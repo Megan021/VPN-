@@ -7,7 +7,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 const Contact = () => {
     return (
         <>
-            <div className="w-[84%] mx-auto">
+            <div className="w-[84%] mx-auto mt-[6rem]">
                 <div className="flex justify-center gap-[4rem]">
                     <div className="h-[42.5rem] rounded-3xl w-[73%] px-[3rem] bg-gradient-to-tl from-[#1A1D35] from-40% to-[#212541] ">
                         <h2 className="text-2xl font-bold pt-[3.5rem] pb-[1rem]">Leave A Message</h2>

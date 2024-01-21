@@ -2,6 +2,9 @@
 import HeroImg from '../images/HeroImg.jpg'
 import { IoMdPlay } from "react-icons/io";
 import { TypeAnimation } from 'react-type-animation';
+import Welcome from './Welcome';
+import Offer from './Offer';
+import Maping from './Maping';
 // #576099
 const Hero = () => {
     return (
@@ -35,6 +38,9 @@ const Hero = () => {
                     <img src={HeroImg} className='w-[80rem]' />
                 </div>
             </div>
+            <Welcome />
+            <Offer />
+            <Maping />
         </div>
     )
 }
