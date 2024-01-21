@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
 @tailwind utilities;
 
 /* :root {
@@ -71,6 +70,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-=======
-@tailwind utilities;
->>>>>>> origin/Dipendra
+
